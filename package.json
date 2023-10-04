@@ -1,0 +1,32 @@
+{
+  "name": "temp-landing-page",
+  "version": "1.0.0",
+  "description": "![alt text](https://s3.amazonaws.com/creativetim_bucket/products/20/original/coming_sssoon_thumbnail.png \"Coming Soon Page\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node": "node src/server.js",
+    "serve": "nodemon src/server.js --ignore public livereload ./public",
+    "dev": "concurrently \"nodemon src/server.js\" \"livereload -v -d ./public\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vives-dust/temp-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vives-dust/temp-landing-page/issues"
+  },
+  "homepage": "https://github.com/vives-dust/temp-landing-page#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^3.0.1"
+  }
+}
